@@ -5,4 +5,6 @@ usuarios={ #os objetos (elementos) do dicionário tem sua chave seguida pelos da
     "danicastro": ["Danielle Castro", "22/03/2023", "Office_X02"]
 }
 
+usuarios["maicao"] = ["Maicão Castro", "20/03/2023", "Office_X03"] #ao adicionar desta forma mais um objeto no dicionário, o Python vai interpretá-lo como um novo registro a ser mostrado e não um novo dicionário
+
 print (usuarios)
