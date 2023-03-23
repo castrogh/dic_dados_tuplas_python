@@ -1,7 +1,7 @@
 usuarios = {}
 emails = ["ghscastro@hotmail.com", "ghscastro@gmail.com"]
 
-tupla = list(enumerate(emails))
+tupla = list(enumerate(emails)) #o enumarate é quem dá um dígito identificador a um elemento da lista, que nesse caso são emails, o list tem por função concatenar o dígito identificador ao seu respectivo elemento
 
 for chave in range(0, len(tupla)):
     print("E-mail: ", tupla[chave][1]) #usar o [chave][1] faz com que o resultado impresso seja somente o e-mail em si, pois a tupla como um todo é composta por (0, 'ghscastro@hotmail.com'), então, ao usar a variável "chave" eu posiciono o códido no primeiro elemento da lista emails e ao usar o [1], eu posiciono o código no segundo elemento da tupla, que é o email em si
