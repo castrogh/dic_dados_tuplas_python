@@ -19,7 +19,7 @@ def pesquisar(dicionario, chave):
 def excluir(dicionario, chave):
     if dicionario.get(chave) != None:
         del dicionario[chave]
-    print("Objeto excluído.")
+    print("Usuário excluído.")
 
 def listar(dicionario):
     for chave, valor in dicionario.items():
